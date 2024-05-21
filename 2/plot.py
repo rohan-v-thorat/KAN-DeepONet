@@ -42,32 +42,32 @@ mlp_test_loss2 = np.load('result/MLP_test_lossD2W100ReLU.npy')
 mlp_loss3 = np.load('result/MLP_lossD2W300ReLU.npy')
 mlp_test_loss3 = np.load('result/MLP_test_lossD2W300ReLU.npy')
 
-plt.plot(epochs[3000:],kan_loss1[3000:])
-plt.plot(epochs[3000:],kan_test_loss1[3000:],'--')
-plt.plot(epochs[3000:],kan_loss2[3000:])
-plt.plot(epochs[3000:],kan_test_loss2[3000:],'--')
-plt.plot(epochs[3000:],kan_loss3[3000:])
-plt.plot(epochs[3000:],kan_test_loss3[3000:],'--')
+# plt.plot(epochs[3000:],kan_loss1[3000:])
+# plt.plot(epochs[3000:],kan_test_loss1[3000:],'--')
+# plt.plot(epochs[3000:],kan_loss2[3000:])
+# plt.plot(epochs[3000:],kan_test_loss2[3000:],'--')
+# plt.plot(epochs[3000:],kan_loss3[3000:])
+# plt.plot(epochs[3000:],kan_test_loss3[3000:],'--')
 
-# plt.plot(epochs[3000:],mlp_loss1[3000:])
-# plt.plot(epochs[3000:],mlp_test_loss1[3000:],'--')
-# plt.plot(epochs[3000:],mlp_loss2[3000:])
-# plt.plot(epochs[3000:],mlp_test_loss2[3000:],'--')
-# plt.plot(epochs[3000:],mlp_loss3[3000:])
-# plt.plot(epochs[3000:],mlp_test_loss3[3000:],'--')
+plt.plot(epochs[3000:],mlp_loss1[3000:])
+plt.plot(epochs[3000:],mlp_test_loss1[3000:],'--')
+plt.plot(epochs[3000:],mlp_loss2[3000:])
+plt.plot(epochs[3000:],mlp_test_loss2[3000:],'--')
+plt.plot(epochs[3000:],mlp_loss3[3000:])
+plt.plot(epochs[3000:],mlp_test_loss3[3000:],'--')
 
 
 # plt.legend(['KAN[G3D2W10ReLU] train loss','KAN[G3D2W10ReLU] test loss','MLP[D2W30ReLU] train loss','MLP[D2W30ReLU] test loss'])
 
 # plt.legend(['KAN[G3D2W10ReLU] train loss','KAN[G3D2W10ReLU] test loss','KAN[G5D2W10ReLU] train loss','KAN[G5D2W10ReLU] test loss','KAN[G10D2W10ReLU] train loss','KAN[G10D2W10ReLU] test loss'])
 
-# plt.legend(['MLP[D2W30ReLU] train loss','MLP[D2W30ReLU] test loss','MLP[D2W100ReLU] train loss','MLP[D2W100ReLU] test loss','MLP[D2W300ReLU] train loss','MLP[D2W300ReLU] test loss'])
+plt.legend(['MLP[D2W30ReLU] train loss','MLP[D2W30ReLU] test loss','MLP[D2W100ReLU] train loss','MLP[D2W100ReLU] test loss','MLP[D2W300ReLU] train loss','MLP[D2W300ReLU] test loss'])
 
 # plt.legend(['KAN[G3D2W10ReLU] train loss','KAN[G3D2W10ReLU] test loss','KAN[G5D2W10ReLU] train loss','KAN[G5D2W10ReLU] test loss','KAN[G10D2W10ReLU] train loss','KAN[G10D2W10ReLU] test loss',\
 #             'MLP[D2W30ReLU] train loss','MLP[D2W30ReLU] test loss','MLP[D2W100ReLU] train loss','MLP[D2W100ReLU] test loss','MLP[D2W300ReLU] train loss','MLP[D2W300ReLU] test loss'])
 plt.ylabel('MSE')
 plt.xlabel('epochs')
-plt.ylim([0,0.001])
+plt.ylim([0,0.0001])
 plt.show()
 
 ## depth = 3
