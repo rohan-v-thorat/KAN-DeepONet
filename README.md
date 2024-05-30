@@ -8,10 +8,10 @@ In this repository, implementation of DeepONet based on Komogorov-Arnold Represe
 
 # Result
 
-##[Example:1] Plot of KAN vs MLP based DeepONet when the depth of the branch and trunk net is 2:
+## [Example:1] Plot of KAN vs MLP based DeepONet when the depth of the branch and trunk net is 2:
 <img width="1163" alt="example1_depth2" src="1/plots/ReLU/Depth2_best.png">
 
-##[Example:1] Plot of KAN vs MLP based DeepONet when the depth of the branch and trunk net is 3:
+## [Example:1] Plot of KAN vs MLP based DeepONet when the depth of the branch and trunk net is 3:
 <img width="1163" alt="example1_depth3" src="1/plots/ReLU/Depth3_best.png">
 
 From the above 2 plot, one strange thing can be noticed. In case of MLP, test loss is less than train loss which is quite strange(this might not always be the case). 
