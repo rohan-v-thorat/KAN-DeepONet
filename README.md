@@ -4,7 +4,7 @@ In this repository, implementation of DeepONet based on Komogorov-Arnold Represe
 
 <img width="1163" alt="mlp_kan_compare" src="images/MLP_KAN_layout.png">
 
-## [KAN-DeepONet will be added soon]
+## [KAN-DeepONet schematic figure will be added soon]
 
 # Result
 
