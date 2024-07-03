@@ -4,8 +4,6 @@ In this repository, implementation of DeepONet based on Komogorov-Arnold Represe
 
 <img width="1163" alt="mlp_kan_compare" src="images/MLP_KAN_layout.png">
 
-## [KAN-DeepONet schematic figure will be added soon]
-
 # Result
 
 ## [Example:1] Plot of KAN vs MLP based DeepONet when the depth of the branch and trunk net is 2:
